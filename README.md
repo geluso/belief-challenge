@@ -19,7 +19,7 @@ On top of the responsive site, we welcome UX implementation for AJAX pagination 
 ###Honesty
 We are not asking you to finish this within a deadline, but want to know how long this took to create. There is often a quick turn around for mockups and presentations but, more importantly, we would also like to know from the outset what your expected time commitment would be from start to finish.
 
-Please create a separate public repo in Github and share your solution with us at hello@beliefagency.com
+Please create a separate public repo in Github and share your solution with us at work@beliefagency.com
 
 
 Thank you and we look forward to your submission!
