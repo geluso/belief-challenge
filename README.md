@@ -1,4 +1,4 @@
-Belief Code Challenge
+Belief Agency Code Challenge
 ==============
 
 ##The Goal
