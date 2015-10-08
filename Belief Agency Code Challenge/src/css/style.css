@@ -1,7 +1,13 @@
 .pike-place-header {
-  background-image: url('Images/Seattle-Hero.jpg');
-  background-repeat: no-repeat;
-  background-position: 0 -1000px;
+  padding: 0;
+  height: 600px;
+  position: relative;
+}
+
+.pike-place-header img {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .green-bg {
@@ -26,6 +32,9 @@ h1, h2 {
 
 .top-nav {
   padding: 1em;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
 .seattle-logo {
@@ -42,8 +51,11 @@ h1, h2 {
   width: 100%;
 }
 
-.neighborhood {
-
+.neighborhood .name {
+  color: rgb(44,89,66);
+  text-transform: uppercase;
+  font-size: larger;
+  font-weight: bold;
 }
 
 .register {
