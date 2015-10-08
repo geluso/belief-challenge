@@ -1,6 +1,30 @@
+.green-bg {
+  background-color: rgb(44,89,66);
+}
+
+.green-bg a {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  color: rgb(251,117,16);
+  text-decoration: underline;
+}
+
+h1, h2 {
+  color: rgb(44,89,66);
+  text-transform: uppercase;
+}
+
+.top-nav {
+  padding: 1em;
+}
+
 .seattle-logo {
   width: 2em;
   height: 2em;
+  color: green;
 }
 
 .seattle-hero {
@@ -13,6 +37,24 @@
 
 .neighborhood {
 
+}
+
+.contact {
+  color: white;
+}
+
+.contact h1 {
+  color: rgb(251,117,1T);
+}
+
+.contact form {
+  background-color: white;
+  color: rgb(44,89,66);
+}
+
+.contact form button {
+  background-color: rgb(251,117,1T);
+  color: white;
 }
 
 .video-container {
