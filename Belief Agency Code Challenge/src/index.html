@@ -19,6 +19,8 @@
     <![endif]-->
   </head>
   <body>
+    <div class="container-fluid pike-place-header"></div>
+
     <div class="container">
       <div class="top-nav green-bg">
         <img class="seattle-logo" src="Vectors/SeattleCityLogo.svg" />
@@ -41,9 +43,9 @@
           </li>
         </ul>
       </div>
+    </div>
 
-      <img class="seattle-hero" src="Images/Seattle-Hero.jpg" />
-
+    <div class="container">
       <div class="row">
         <div class="col-xs-10">
           <h1>A Brief History of Seattle</h1>
@@ -119,75 +121,84 @@
           <a>Load more neighborhoods.</a>
         </div>
       </div>
+    </div>
 
-      <div class="row register">
-        <div class="col-xs-6">
-          <h1>Sign Up For Our Newsletter</h1>
-          <div>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non mi porttitor, sollicitudin lorem finibus, semper ante. Curabitur efficitur libero orci, ac ultricies tellus placerat ac. Cras erat metus, elementum in libero a, interdum sollicitudin erat. Mauris justo turpis, iaculis at lacus ut, scelerisque euismod est. Nunc eu risus urna. Etiam et aliquet felis. Duis vulputate ipsum ac purus volutpat varius. Proin eu elit erat. Fusce enim orci, dapibus imperdiet purus at, tincidunt efficitur libero.
+
+    <div class="container-fluid green-bg bleedover">
+      <div class="container">
+        <div class="row register">
+          <div class="col-xs-6">
+            <h1>Sign Up For Our Newsletter</h1>
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non mi porttitor, sollicitudin lorem finibus, semper ante. Curabitur efficitur libero orci, ac ultricies tellus placerat ac. Cras erat metus, elementum in libero a, interdum sollicitudin erat. Mauris justo turpis, iaculis at lacus ut, scelerisque euismod est. Nunc eu risus urna. Etiam et aliquet felis. Duis vulputate ipsum ac purus volutpat varius. Proin eu elit erat. Fusce enim orci, dapibus imperdiet purus at, tincidunt efficitur libero.
+            </div>
+          </div>
+
+          <div class="col-xs-6">
+            <form class="form-horizontal">
+              <div class="contact-info">
+                <div class="form-group">
+                  <label for="name" class="col-sm-1 control-label">Name</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="name"></input>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="email" class="col-sm-1 control-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email"></input>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="city" class="col-sm-1 control-label">City</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="city"></input>
+                  </div>
+                </div>
+              </div>
+
+              <button type="submit">Submit</button>
+            </form>
           </div>
         </div>
-
-        <div class="col-xs-6">
-          <form class="form-horizontal">
-            <div class="contact-info">
-              <div class="form-group">
-                <label for="name" class="col-sm-1 control-label">Name</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="name"></input>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <label for="email" class="col-sm-1 control-label">Email</label>
-                <div class="col-sm-10">
-                  <input type="email" class="form-control" id="email"></input>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <label for="city" class="col-sm-1 control-label">City</label>
-                <div class="col-sm-10">
-                  <input type="text" class="form-control" id="city"></input>
-                </div>
-              </div>
-            </div>
-
-            <button type="submit">Submit</button>
-          </form>
-        </div>
       </div>
-
-      <div class="video-container">
-        <iframe height="auto" width="100%" src="https://www.youtube.com/embed/92ISlO9U-84" frameborder="0" allowfullscreen></iframe>
-      </div>
-
-      <div class="row">
-        <div class="col-xs-6">
-          <ul>
-            <li>About</li>
-            <li>Blog</li>
-            <li>History</li>
-            <li>Neighborhoods</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-
-        <div class="col-xs-6">
-          <ul>
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Instagram</li>
-            <li>Pinterest</li>
-            <li>YouTube</li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <!-- Include all compiled plugins (below), or include individual files as needed -->
-      <script src="js/bootstrap.min.js"></script>
     </div>
+
+    <div class="container-fluid video-container">
+      <iframe height="auto" width="100%" src="https://www.youtube.com/embed/92ISlO9U-84" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="container-fluid bleedover footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6">
+            <ul>
+              <li>About</li>
+              <li>Blog</li>
+              <li>History</li>
+              <li>Neighborhoods</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+
+          <div class="col-xs-6">
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Pinterest</li>
+              <li>YouTube</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

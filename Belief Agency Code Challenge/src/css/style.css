@@ -1,5 +1,12 @@
+.pike-place-header {
+  background-image: url('Images/Seattle-Hero.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 -1000px;
+}
+
 .green-bg {
   background-color: rgb(44,89,66);
+  background-position: 0 -33%;
 }
 
 .green-bg a {
@@ -46,6 +53,7 @@ h1, h2 {
 
 .register h1 {
   color: rgb(251,117,16);
+  margin-top: 0;
 }
 
 .register form .contact-info {
@@ -71,12 +79,15 @@ h1, h2 {
   color: white;
   border: none;
   text-transform: uppercase;
+  padding: .5em 1em;
 }
 
 .video-container {
 	position: relative;
 	padding-bottom: 56.25%;
 	padding-top: 30px;
+  padding-left: 0;
+  padding-right: 0;
 	height: 0;
 	overflow: hidden;
 }
@@ -91,3 +102,13 @@ h1, h2 {
 	height: 100%;
 }
 
+
+.bleedover {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+}
