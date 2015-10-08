@@ -39,22 +39,38 @@ h1, h2 {
 
 }
 
-.contact {
+.register {
+  background-color: rgb(44,89,66);
   color: white;
 }
 
-.contact h1 {
-  color: rgb(251,117,1T);
+.register h1 {
+  color: rgb(251,117,16);
 }
 
-.contact form {
+.register form .contact-info {
   background-color: white;
   color: rgb(44,89,66);
+  padding: 1em;
 }
 
-.contact form button {
-  background-color: rgb(251,117,1T);
+.register form input {
+  outline: none;
+  outline-width: 0;
+
+  border: none;
+  border-radius: 0;
+  border-bottom: solid rgb(44,89,66) 1px;
+
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.register form button {
+  background-color: rgb(251,117,16);
   color: white;
+  border: none;
+  text-transform: uppercase;
 }
 
 .video-container {
