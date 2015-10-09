@@ -4,6 +4,15 @@
   width: 100%;
 }
 
+.top-nav .container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.top-nav a {
+  line-height: 50px;
+}
+
 .pike-place-header {
   padding: 0;
   background-image: url('Images/Seattle-Hero.jpg');
@@ -46,12 +55,8 @@ h1, h2 {
 }
 
 .seattle-logo {
-  width: 4em;
-  height: 4em;
-}
-
-.seattle-hero {
-  width: 100%;
+  width: 5em;
+  height: 5em;
 }
 
 .neighborhoods img {
@@ -148,5 +153,4 @@ h1, h2 {
   color: white;
   text-decoration: none;
 }
-
 
