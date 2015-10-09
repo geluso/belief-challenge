@@ -59,6 +59,11 @@ h1, h2 {
   height: 5em;
 }
 
+.history {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
 .neighborhoods img {
   width: 100%;
 }
