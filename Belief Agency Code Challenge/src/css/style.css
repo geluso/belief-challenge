@@ -121,8 +121,9 @@ h1, h2 {
 }
 
 .footer {
-  background-color: black;
+  background-color: rgb(40,40,40);
   color: white;
+  padding-bottom: 80px;
 }
 
 .footer a {
@@ -130,3 +131,9 @@ h1, h2 {
   text-decoration: none;
 }
 
+
+.footer .nav > li > a:hover {
+  background-color: inherit;
+  color: rgb(251,117,16);
+  text-decoration: underline;
+}
