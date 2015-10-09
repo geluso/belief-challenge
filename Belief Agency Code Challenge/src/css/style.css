@@ -1,0 +1,212 @@
+body {
+  font-family: Georgia, serif;
+}
+
+.top-nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.top-nav .container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.top-nav a {
+  line-height: 50px;
+}
+
+.pike-place-header {
+  padding: 0;
+  background-image: url('Images/Seattle-Hero.jpg');
+  width: 100%;
+  margin-top: -300px;
+}
+
+.pike-place-header img {
+  width: 100%;
+}
+
+.green-bg {
+  background-color: rgb(44,89,66);
+  background-position: 0 -33%;
+}
+
+.green-bg a {
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  color: rgb(251,117,16);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(44,89,66);
+}
+
+
+h1, h2 {
+  font-family: Helvetica, sans-serif;
+  color: rgb(44,89,66);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav > li > a:hover {
+  background-color: inherit;
+  color: rgb(251,117,16);
+}
+
+.seattle-logo {
+  width: 5em;
+  height: 5em;
+}
+
+.history {
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  font-size: 20pt;
+}
+
+.neighborhoods img {
+  width: 100%;
+}
+
+.neighborhood .name {
+  color: rgb(44,89,66);
+  text-transform: uppercase;
+
+  font-family: Helvetica, sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  text-decoration: none;
+
+  display: block;
+  padding-top: .5em;
+}
+
+.neighborhood .name:hover {
+  color: rgb(251,117,16);
+}
+
+.neighborhood .description {
+  margin-bottom: 2em;
+  font-size: 14pt;
+  margin-bottom: 3em;
+}
+
+.more-neighborhoods {
+  display: block;
+  font-size: x-large;
+  margin-bottom: 3em;
+}
+
+.register {
+  background-color: rgb(44,89,66);
+  color: white;
+}
+
+.register h1 {
+  color: rgb(251,117,16);
+  margin-top: 0;
+  font-size: 36pt;
+}
+
+.register .signup-text {
+  font-size: 14pt;
+  padding-bottom: 40px;
+}
+
+.register form .contact-info {
+  background-color: white;
+  color: rgb(44,89,66);
+  padding: 1em;
+  font-size: 14pt;
+}
+
+.register form input {
+  outline: none;
+  outline-width: 0;
+
+  border: none;
+  border-radius: 0;
+  border-bottom: solid rgb(44,89,66) 1px;
+
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.register form button {
+  background-color: rgb(251,117,16);
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: .5em 1em;
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.register form button:hover {
+  color: rgb(44,89,66);
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+  padding-left: 0;
+  padding-right: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe,  
+.video-container object,  
+.video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+.bleedover {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer {
+  background-color: rgb(40,40,40);
+  color: white;
+  padding-bottom: 80px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .links a, .copyright {
+  padding-bottom: 20px;
+}
+
+.footer .links a {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 14pt;
+}
+
+.footer a:hover {
+  background-color: inherit;
+  color: rgb(251,117,16);
+}
+
+.social i {
+  font-size: 30pt;
+  padding: 10px;
+}
