@@ -191,7 +191,22 @@ h1, h2 {
   text-decoration: none;
 }
 
+.footer .links a, .copyright {
+  padding-bottom: 20px;
+}
+
+.footer .links a {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 14pt;
+}
+
+.footer a:hover {
+  background-color: inherit;
+  color: rgb(251,117,16);
+}
 
 .social i {
   font-size: 30pt;
+  padding: 10px;
 }
