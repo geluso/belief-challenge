@@ -1,3 +1,7 @@
+body {
+  font-family: Georgia, serif;
+}
+
 .top-nav {
   position: absolute;
   top: 0;
@@ -45,8 +49,10 @@ a:hover {
 
 
 h1, h2 {
+  font-family: Helvetica, sans-serif;
   color: rgb(44,89,66);
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .nav > li > a:hover {
@@ -62,6 +68,8 @@ h1, h2 {
 .history {
   padding-top: 30px;
   padding-bottom: 20px;
+
+  font-size: 20pt;
 }
 
 .neighborhoods img {
@@ -71,6 +79,8 @@ h1, h2 {
 .neighborhood .name {
   color: rgb(44,89,66);
   text-transform: uppercase;
+
+  font-family: Helvetica, sans-serif;
   font-size: x-large;
   font-weight: bold;
   text-decoration: none;
@@ -85,6 +95,8 @@ h1, h2 {
 
 .neighborhood .description {
   margin-bottom: 2em;
+  font-size: 14pt;
+  margin-bottom: 3em;
 }
 
 .more-neighborhoods {
@@ -101,12 +113,18 @@ h1, h2 {
 .register h1 {
   color: rgb(251,117,16);
   margin-top: 0;
+  font-size: 36pt;
+}
+
+.register .signup-text {
+  font-size: 14pt;
 }
 
 .register form .contact-info {
   background-color: white;
   color: rgb(44,89,66);
   padding: 1em;
+  font-size: 14pt;
 }
 
 .register form input {
@@ -128,6 +146,7 @@ h1, h2 {
   text-transform: uppercase;
   padding: .5em 1em;
   font-weight: bold;
+  font-size: 18pt;
 }
 
 .register form button:hover {
@@ -156,8 +175,8 @@ h1, h2 {
 
 
 .bleedover {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer {
@@ -173,5 +192,5 @@ h1, h2 {
 
 
 .social i {
-  font-size: x-large;
+  font-size: 30pt;
 }
