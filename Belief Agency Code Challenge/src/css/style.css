@@ -2,26 +2,29 @@ body {
   font-family: Georgia, serif;
 }
 
-.top-nav {
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
 .top-nav .container {
   padding-top: 5px;
   padding-bottom: 5px;
+  margin: 0;
 }
 
 .top-nav a {
-  line-height: 50px;
+  color: white !important;
+  text-decoration: none !important;
+  line-height: 45px !important;
+}
+
+.top-nav a:hover {
+  background-color: inherit;
+  color: rgb(251,117,16) !important;
+}
+
+.top-nav nav {
+  margin: 0;
 }
 
 .pike-place-header {
   padding: 0;
-  background-image: url('Images/Seattle-Hero.jpg');
-  width: 100%;
-  margin-top: -300px;
 }
 
 .pike-place-header img {
@@ -30,12 +33,7 @@ body {
 
 .green-bg {
   background-color: rgb(44,89,66);
-  background-position: 0 -33%;
-}
-
-.green-bg a {
-  color: white;
-  text-decoration: none;
+  border: none;
 }
 
 a {
@@ -53,11 +51,6 @@ h1, h2 {
   color: rgb(44,89,66);
   text-transform: uppercase;
   font-weight: bold;
-}
-
-.nav > li > a:hover {
-  background-color: inherit;
-  color: rgb(251,117,16);
 }
 
 .seattle-logo {
